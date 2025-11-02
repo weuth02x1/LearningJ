@@ -2,8 +2,7 @@
 //  LearningJourneyApp.swift
 //  LearningJourney
 //
-//  Created by شهد عبدالله القحطاني on 07/05/1447 AH.
-//
+//  Created by شهد عبدالله القحطاني on 10/05/1447 AH.
 
 import SwiftUI
 
@@ -11,7 +10,8 @@ import SwiftUI
 struct LearningJourneyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Onboarding()
         }
     }
 }
+

@@ -29,20 +29,42 @@
 		8A4A50EB2EB2486D00176B61 /* LearningJourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningJourneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8A4A51462EB2704A00176B61 /* Exceptions for "LearningJourney" folder in "LearningJourney" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LearningJourneyTests/LearningJourneyTests.swift,
+				LearningJourneyTests/LearningJourneyUITests/LearningJourneyUITests.swift,
+				LearningJourneyTests/LearningJourneyUITests/LearningJourneyUITestsLaunchTests.swift,
+			);
+			target = 8A4A50D32EB2486D00176B61 /* LearningJourney */;
+		};
+		8A4A51472EB2704A00176B61 /* Exceptions for "LearningJourney" folder in "LearningJourneyTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LearningJourneyTests/LearningJourneyTests.swift,
+			);
+			target = 8A4A50E02EB2486D00176B61 /* LearningJourneyTests */;
+		};
+		8A4A514D2EB2704C00176B61 /* Exceptions for "LearningJourney" folder in "LearningJourneyUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LearningJourneyTests/LearningJourneyUITests/LearningJourneyUITests.swift,
+				LearningJourneyTests/LearningJourneyUITests/LearningJourneyUITestsLaunchTests.swift,
+			);
+			target = 8A4A50EA2EB2486D00176B61 /* LearningJourneyUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8A4A50D62EB2486D00176B61 /* LearningJourney */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8A4A51462EB2704A00176B61 /* Exceptions for "LearningJourney" folder in "LearningJourney" target */,
+				8A4A51472EB2704A00176B61 /* Exceptions for "LearningJourney" folder in "LearningJourneyTests" target */,
+				8A4A514D2EB2704C00176B61 /* Exceptions for "LearningJourney" folder in "LearningJourneyUITests" target */,
+			);
 			path = LearningJourney;
-			sourceTree = "<group>";
-		};
-		8A4A50E42EB2486D00176B61 /* LearningJourneyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LearningJourneyTests;
-			sourceTree = "<group>";
-		};
-		8A4A50EE2EB2486D00176B61 /* LearningJourneyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LearningJourneyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				8A4A50D62EB2486D00176B61 /* LearningJourney */,
-				8A4A50E42EB2486D00176B61 /* LearningJourneyTests */,
-				8A4A50EE2EB2486D00176B61 /* LearningJourneyUITests */,
 				8A4A50D52EB2486D00176B61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +150,6 @@
 			dependencies = (
 				8A4A50E32EB2486D00176B61 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8A4A50E42EB2486D00176B61 /* LearningJourneyTests */,
-			);
 			name = LearningJourneyTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +169,6 @@
 			);
 			dependencies = (
 				8A4A50ED2EB2486D00176B61 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8A4A50EE2EB2486D00176B61 /* LearningJourneyUITests */,
 			);
 			name = LearningJourneyUITests;
 			packageProductDependencies = (
