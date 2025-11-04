@@ -5,13 +5,11 @@ It encourages focus, progress, and motivation — turning learning into a reward
 
 ---
 
-## 📱 App Preview
-
-![App Screenshot 1](<img width="575" height="1014" alt="‏لقطة الشاشة ١٤٤٧-٠٥-١٣ في ٧ ٥٤ ٠٧ ص" src="https://github.com/user-attachments/assets/641fb579-26bd-4c77-95fd-2f607e1313dd" />
-)  
-![App Screenshot 2](<img width="643" height="1010" alt="‏لقطة الشاشة ١٤٤٧-٠٥-١٣ في ٧ ٥٣ ٥١ ص" src="https://github.com/user-attachments/assets/b11711b0-3fbc-4777-a5e7-d9e181b0ed84" />
-)  
-![App Screenshot 3](<img width="634" height="1019" alt="‏لقطة الشاشة ١٤٤٧-٠٥-١٣ في ٧ ٥٤ ١٩ ص" src="https://github.com/user-attachments/assets/e7abc387-c4df-4462-8d64-2c0b5badd535" />)
+**User Interface**  
+   - **MainView**:  
+     - Displays a `CalendarCard` showing logged days.  
+     - Buttons for **Pencil** (edit goal) and **Calendar** (view calendar).  
+     - Buttons to log today as Learned or Freezed.  
 
 
 ---
