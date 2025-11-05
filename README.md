@@ -3,14 +3,6 @@
 **LearningJourney** is a beautifully designed iOS app that helps you stay consistent with your daily learning goals.  
 It encourages focus, progress, and motivation — turning learning into a rewarding habit.
 
----
-
-**User Interface**  
-   - **MainView**:  
-     - Displays a `CalendarCard` showing logged days.  
-     - Buttons for **Pencil** (edit goal) and **Calendar** (view calendar).  
-     - Buttons to log today as Learned or Freezed.  
-
 
 ---
 
